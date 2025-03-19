@@ -9,3 +9,6 @@ class Solution:
             if nums[right] != 0:
                 nums[left], nums[right] = nums[right], nums[left]
                 left += 1
+
+
+# 用交換的方式遇到 0 就跟後面的交換
